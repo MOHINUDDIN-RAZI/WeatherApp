@@ -6,19 +6,19 @@
 }
 
 body{
-    background: #222;
+    background-image:url(bg4.jpg);
 }
 
 .card{
-        width: 90%;
+        width: 100%;
         max-width: 470px;
         background-image:url(bg4.jpg);
-        /* background: linear-gradient(135deg,#00feba,#5b548a); */
         color: #fff;
         margin: 100px auto;
         border-radius: 20px;
         padding:40px 35px;
-        text-align: center;   
+        text-align: center;  
+        border: 1px solid rgb(255, 255, 255); 
 }
 .search{
     width: 100%;
@@ -96,4 +96,76 @@ body{
     font-size:14px;
     margin-top: 10px;
     display:none;
+}
+@media only screen and (max-width: 483px) {
+    .search input{
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        color: #555;
+        padding: 10px 25px;
+        height: 60px;
+        border-radius:30px;
+        flex: 1;
+        margin-right: 16px;
+        font-size: 16px;
+        font-weight: 600;
+        width:50px
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .search input{
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        color: #555;
+        padding: 10px 25px;
+        height: 60px;
+        border-radius:30px;
+        flex: 1;
+        margin-right: 16px;
+        font-size: 12px;
+        font-weight: 600;
+        width:40px
+    }
+}
+    @media only screen and (max-width: 330px) {
+        .search input{
+            border: 0;
+            outline: 0;
+            background: #ebfffc;
+            color: #555;
+            padding: 10px 25px;
+            height: 60px;
+            border-radius:30px;
+            flex: 1;
+            margin-right: 16px;
+            font-size: 10px;
+            font-weight: 600;
+            width:40px
+        }
+  }
+  @media only screen and (max-width: 460px) {
+    .humidity{
+    font-size: small;
+    }
+    .wind{
+        font-size: small;
+    }
+    .hum{
+        width:20px;
+        height:20px
+    }
+}
+@media only screen and (max-width: 360px) {
+    .humidity{
+    font-size: xx-small;
+    }
+    .wind{
+        font-size: xx-small;
+    }
+    .hum{
+        width:5px;
+        height:5px;
+    }
 }
