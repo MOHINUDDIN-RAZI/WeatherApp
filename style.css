@@ -13,7 +13,7 @@ body{
         width: 100%;
         max-width: 470px;
         background-image:url(bg4.jpg);
-        color: #fff;
+        color: #ffffff;
         margin: 100px auto;
         border-radius: 20px;
         padding:40px 35px;
@@ -29,7 +29,7 @@ body{
 .search input{
     border: 0;
     outline: 0;
-    background: #ebfffc;
+    background: #ffffff;
     color: #555;
     padding: 10px 25px;
     height: 60px;
@@ -43,7 +43,7 @@ body{
 .search button{
     border: 0;
     outline: 0;
-    background: #ebfffc;
+    background: #ffffff;
     border-radius: 50%;
     width: 60px;
     height:60px;
@@ -154,7 +154,7 @@ body{
     }
     .hum{
         width:20px;
-        height:20px
+        height:30px
     }
 }
 @media only screen and (max-width: 360px) {
@@ -165,7 +165,16 @@ body{
         font-size: xx-small;
     }
     .hum{
-        width:5px;
-        height:5px;
+        width:15px;
+        height:25px;
+        padding-left: 1rem;
     }
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 0.8rem;
+    color: #fff;
+    opacity: 36%;
 }
